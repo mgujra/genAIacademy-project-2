@@ -1,0 +1,22 @@
+[
+  {"id": 1,  "category": "direct",       "question": "How long do refunds take to process?", "expected_sources": ["returns-and-refunds.md"], "should_escalate": false},
+  {"id": 2,  "category": "direct",       "question": "What payment methods do you accept?", "expected_sources": ["payments-and-billing.md"], "should_escalate": false},
+  {"id": 3,  "category": "direct",       "question": "How do I enable two-factor authentication?", "expected_sources": ["account-management.md"], "should_escalate": false},
+  {"id": 4,  "category": "direct",       "question": "Can I cancel my order after it has shipped?", "expected_sources": ["orders-and-cancellation.md"], "should_escalate": false},
+  {"id": 5,  "category": "direct",       "question": "How long is the warranty and what does it cover?", "expected_sources": ["warranty-policy.md"], "should_escalate": false},
+  {"id": 6,  "category": "exact-code",   "question": "What does error LL-E45 mean?", "expected_sources": ["troubleshooting-guide.md", "product-manual-hub-plug.md"], "should_escalate": false},
+  {"id": 7,  "category": "exact-code",   "question": "I'm getting error PAY-204 at checkout", "expected_sources": ["payments-and-billing.md"], "should_escalate": false},
+  {"id": 8,  "category": "exact-code",   "question": "My hub LED is blinking red, is that error LL-E30?", "expected_sources": ["troubleshooting-guide.md", "product-manual-hub-plug.md"], "should_escalate": false},
+  {"id": 9,  "category": "exact-code",   "question": "Where can I find the terms of POL-WHL-09 for bulk orders?", "expected_sources": ["orders-and-cancellation.md", "returns-and-refunds.md"], "should_escalate": false},
+  {"id": 10, "category": "paraphrase",   "question": "My light keeps blinking on and off, what is wrong with it?", "expected_sources": ["troubleshooting-guide.md"], "should_escalate": false},
+  {"id": 11, "category": "paraphrase",   "question": "The app cannot find my device even though it is plugged in and powered", "expected_sources": ["troubleshooting-guide.md"], "should_escalate": false},
+  {"id": 12, "category": "paraphrase",   "question": "Tracking says my package arrived but I never got it", "expected_sources": ["orders-and-cancellation.md", "shipping-and-delivery.md"], "should_escalate": false},
+  {"id": 13, "category": "paraphrase",   "question": "Can I stop my kids from turning the smart plug on and off?", "expected_sources": ["product-manual-hub-plug.md"], "should_escalate": false},
+  {"id": 14, "category": "multi-doc",    "question": "I want to return a defective bulb. Do I pay for the return label, and can I get a replacement instead of a refund?", "expected_sources": ["returns-and-refunds.md", "warranty-policy.md"], "should_escalate": false},
+  {"id": 15, "category": "multi-doc",    "question": "If my internet goes down, will my bulbs still work and will schedules still run?", "expected_sources": ["faq-general.md"], "should_escalate": false},
+  {"id": 16, "category": "ambiguous",    "question": "My device isn't working", "expected_sources": ["troubleshooting-guide.md"], "should_escalate": false},
+  {"id": 17, "category": "ambiguous",    "question": "How much does shipping cost?", "expected_sources": ["shipping-and-delivery.md"], "should_escalate": false},
+  {"id": 18, "category": "implicit-negative", "question": "Do you ship to Australia?", "expected_sources": ["shipping-and-delivery.md"], "should_escalate": false, "note": "Re-labeled after run #2: KB lists US/CA/UK, so a grounded 'no' citing the shipping policy resolves the question without human handoff. Run #1 escalated it at the gate (score 0.331 < 0.45); run #2 answered it faithfully (judge 5/5)."},
+  {"id": 19, "category": "unanswerable", "question": "What is your CEO's salary?", "expected_sources": [], "should_escalate": true},
+  {"id": 20, "category": "unanswerable", "question": "Do you sell outdoor security cameras?", "expected_sources": [], "should_escalate": true}
+]

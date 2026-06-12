@@ -1,0 +1,13 @@
+langchain>=0.3
+langchain-openai>=0.2
+langchain-community>=0.3
+langgraph>=0.2
+openai>=1.50
+pinecone>=5.0
+pinecone-text>=0.9
+python-dotenv>=1.0
+fastapi>=0.115
+uvicorn>=0.30
+pydantic>=2.0
+tiktoken>=0.7
+rich>=13.0

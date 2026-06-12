@@ -1,0 +1,931 @@
+{
+  "summary": {
+    "hit@5 hybrid (\u03b1=0.6)": 1.0,
+    "hit@1 hybrid (\u03b1=0.6)": 1.0,
+    "hit@5 dense (\u03b1=1.0)": 1.0,
+    "hit@1 dense (\u03b1=1.0)": 0.9444444444444444,
+    "hit@5 sparse (\u03b1=0.0)": 1.0,
+    "hit@1 sparse (\u03b1=0.0)": 1.0,
+    "first_contact_resolution": 1.0,
+    "escalation_recall": 1.0,
+    "citation_rate": 1.0,
+    "faithfulness_avg": 4.833333333333333,
+    "faithfulness_pct_4plus": 1.0,
+    "avg_latency_s": 2.742
+  },
+  "by_category": {
+    "ambiguous": {
+      "hybrid (\u03b1=0.6)": {
+        "hit5": 1.0,
+        "hit1": 1.0
+      },
+      "dense (\u03b1=1.0)": {
+        "hit5": 1.0,
+        "hit1": 1.0
+      },
+      "sparse (\u03b1=0.0)": {
+        "hit5": 1.0,
+        "hit1": 1.0
+      }
+    },
+    "direct": {
+      "hybrid (\u03b1=0.6)": {
+        "hit5": 1.0,
+        "hit1": 1.0
+      },
+      "dense (\u03b1=1.0)": {
+        "hit5": 1.0,
+        "hit1": 1.0
+      },
+      "sparse (\u03b1=0.0)": {
+        "hit5": 1.0,
+        "hit1": 1.0
+      }
+    },
+    "exact-code": {
+      "hybrid (\u03b1=0.6)": {
+        "hit5": 1.0,
+        "hit1": 1.0
+      },
+      "dense (\u03b1=1.0)": {
+        "hit5": 1.0,
+        "hit1": 1.0
+      },
+      "sparse (\u03b1=0.0)": {
+        "hit5": 1.0,
+        "hit1": 1.0
+      }
+    },
+    "implicit-negative": {
+      "hybrid (\u03b1=0.6)": {
+        "hit5": 1.0,
+        "hit1": 1.0
+      },
+      "dense (\u03b1=1.0)": {
+        "hit5": 1.0,
+        "hit1": 1.0
+      },
+      "sparse (\u03b1=0.0)": {
+        "hit5": 1.0,
+        "hit1": 1.0
+      }
+    },
+    "multi-doc": {
+      "hybrid (\u03b1=0.6)": {
+        "hit5": 1.0,
+        "hit1": 1.0
+      },
+      "dense (\u03b1=1.0)": {
+        "hit5": 1.0,
+        "hit1": 0.5
+      },
+      "sparse (\u03b1=0.0)": {
+        "hit5": 1.0,
+        "hit1": 1.0
+      }
+    },
+    "paraphrase": {
+      "hybrid (\u03b1=0.6)": {
+        "hit5": 1.0,
+        "hit1": 1.0
+      },
+      "dense (\u03b1=1.0)": {
+        "hit5": 1.0,
+        "hit1": 1.0
+      },
+      "sparse (\u03b1=0.0)": {
+        "hit5": 1.0,
+        "hit1": 1.0
+      }
+    }
+  },
+  "retrieval": {
+    "rows": [
+      {
+        "id": 1,
+        "category": "direct",
+        "question": "How long do refunds take to process?",
+        "hybrid (\u03b1=0.6)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.4263753,
+          "top_source": "returns-and-refunds.md"
+        },
+        "dense (\u03b1=1.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.556739807,
+          "top_source": "returns-and-refunds.md"
+        },
+        "sparse (\u03b1=0.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.2640405,
+          "top_source": "returns-and-refunds.md"
+        }
+      },
+      {
+        "id": 2,
+        "category": "direct",
+        "question": "What payment methods do you accept?",
+        "hybrid (\u03b1=0.6)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.627347589,
+          "top_source": "payments-and-billing.md"
+        },
+        "dense (\u03b1=1.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.593254089,
+          "top_source": "payments-and-billing.md"
+        },
+        "sparse (\u03b1=0.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.678490758,
+          "top_source": "payments-and-billing.md"
+        }
+      },
+      {
+        "id": 3,
+        "category": "direct",
+        "question": "How do I enable two-factor authentication?",
+        "hybrid (\u03b1=0.6)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.384525329,
+          "top_source": "account-management.md"
+        },
+        "dense (\u03b1=1.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.35943222,
+          "top_source": "account-management.md"
+        },
+        "sparse (\u03b1=0.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.422165453,
+          "top_source": "account-management.md"
+        }
+      },
+      {
+        "id": 4,
+        "category": "direct",
+        "question": "Can I cancel my order after it has shipped?",
+        "hybrid (\u03b1=0.6)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.650406361,
+          "top_source": "orders-and-cancellation.md"
+        },
+        "dense (\u03b1=1.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.545282364,
+          "top_source": "orders-and-cancellation.md"
+        },
+        "sparse (\u03b1=0.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.808092356,
+          "top_source": "orders-and-cancellation.md"
+        }
+      },
+      {
+        "id": 5,
+        "category": "direct",
+        "question": "How long is the warranty and what does it cover?",
+        "hybrid (\u03b1=0.6)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.48324281,
+          "top_source": "warranty-policy.md"
+        },
+        "dense (\u03b1=1.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.578039169,
+          "top_source": "warranty-policy.md"
+        },
+        "sparse (\u03b1=0.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.341150284,
+          "top_source": "warranty-policy.md"
+        }
+      },
+      {
+        "id": 6,
+        "category": "exact-code",
+        "question": "What does error LL-E45 mean?",
+        "hybrid (\u03b1=0.6)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.366674483,
+          "top_source": "troubleshooting-guide.md"
+        },
+        "dense (\u03b1=1.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.405107498,
+          "top_source": "troubleshooting-guide.md"
+        },
+        "sparse (\u03b1=0.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.309021652,
+          "top_source": "troubleshooting-guide.md"
+        }
+      },
+      {
+        "id": 7,
+        "category": "exact-code",
+        "question": "I'm getting error PAY-204 at checkout",
+        "hybrid (\u03b1=0.6)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.429813564,
+          "top_source": "payments-and-billing.md"
+        },
+        "dense (\u03b1=1.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.56930542,
+          "top_source": "payments-and-billing.md"
+        },
+        "sparse (\u03b1=0.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.22057575,
+          "top_source": "payments-and-billing.md"
+        }
+      },
+      {
+        "id": 8,
+        "category": "exact-code",
+        "question": "My hub LED is blinking red, is that error LL-E30?",
+        "hybrid (\u03b1=0.6)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.624667287,
+          "top_source": "troubleshooting-guide.md"
+        },
+        "dense (\u03b1=1.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.717467308,
+          "top_source": "troubleshooting-guide.md"
+        },
+        "sparse (\u03b1=0.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.503374755,
+          "top_source": "product-manual-hub-plug.md"
+        }
+      },
+      {
+        "id": 9,
+        "category": "exact-code",
+        "question": "Where can I find the terms of POL-WHL-09 for bulk orders?",
+        "hybrid (\u03b1=0.6)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.455195218,
+          "top_source": "orders-and-cancellation.md"
+        },
+        "dense (\u03b1=1.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.495782852,
+          "top_source": "orders-and-cancellation.md"
+        },
+        "sparse (\u03b1=0.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.394515514,
+          "top_source": "orders-and-cancellation.md"
+        }
+      },
+      {
+        "id": 10,
+        "category": "paraphrase",
+        "question": "My light keeps blinking on and off, what is wrong with it?",
+        "hybrid (\u03b1=0.6)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.293251455,
+          "top_source": "troubleshooting-guide.md"
+        },
+        "dense (\u03b1=1.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.441894531,
+          "top_source": "troubleshooting-guide.md"
+        },
+        "sparse (\u03b1=0.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.142495483,
+          "top_source": "troubleshooting-guide.md"
+        }
+      },
+      {
+        "id": 11,
+        "category": "paraphrase",
+        "question": "The app cannot find my device even though it is plugged in and powered",
+        "hybrid (\u03b1=0.6)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.3831743,
+          "top_source": "troubleshooting-guide.md"
+        },
+        "dense (\u03b1=1.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.455444336,
+          "top_source": "troubleshooting-guide.md"
+        },
+        "sparse (\u03b1=0.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.274766326,
+          "top_source": "troubleshooting-guide.md"
+        }
+      },
+      {
+        "id": 12,
+        "category": "paraphrase",
+        "question": "Tracking says my package arrived but I never got it",
+        "hybrid (\u03b1=0.6)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.2286385,
+          "top_source": "shipping-and-delivery.md"
+        },
+        "dense (\u03b1=1.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.315989494,
+          "top_source": "shipping-and-delivery.md"
+        },
+        "sparse (\u03b1=0.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.162241817,
+          "top_source": "shipping-and-delivery.md"
+        }
+      },
+      {
+        "id": 13,
+        "category": "paraphrase",
+        "question": "Can I stop my kids from turning the smart plug on and off?",
+        "hybrid (\u03b1=0.6)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.344478846,
+          "top_source": "product-manual-hub-plug.md"
+        },
+        "dense (\u03b1=1.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.456873894,
+          "top_source": "product-manual-hub-plug.md"
+        },
+        "sparse (\u03b1=0.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.203085095,
+          "top_source": "product-manual-hub-plug.md"
+        }
+      },
+      {
+        "id": 14,
+        "category": "multi-doc",
+        "question": "I want to return a defective bulb. Do I pay for the return label, and can I get a replacement instead of a refund?",
+        "hybrid (\u03b1=0.6)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.371588647,
+          "top_source": "returns-and-refunds.md"
+        },
+        "dense (\u03b1=1.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.492154121,
+          "top_source": "returns-and-refunds.md"
+        },
+        "sparse (\u03b1=0.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.246592551,
+          "top_source": "warranty-policy.md"
+        }
+      },
+      {
+        "id": 15,
+        "category": "multi-doc",
+        "question": "If my internet goes down, will my bulbs still work and will schedules still run?",
+        "hybrid (\u03b1=0.6)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.373619258,
+          "top_source": "faq-general.md"
+        },
+        "dense (\u03b1=1.0)": {
+          "hit": true,
+          "hit1": false,
+          "top_score": 0.427122116,
+          "top_source": "troubleshooting-guide.md"
+        },
+        "sparse (\u03b1=0.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.322518796,
+          "top_source": "faq-general.md"
+        }
+      },
+      {
+        "id": 16,
+        "category": "ambiguous",
+        "question": "My device isn't working",
+        "hybrid (\u03b1=0.6)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.377365589,
+          "top_source": "troubleshooting-guide.md"
+        },
+        "dense (\u03b1=1.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.347377777,
+          "top_source": "troubleshooting-guide.md"
+        },
+        "sparse (\u03b1=0.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.45399785,
+          "top_source": "troubleshooting-guide.md"
+        }
+      },
+      {
+        "id": 17,
+        "category": "ambiguous",
+        "question": "How much does shipping cost?",
+        "hybrid (\u03b1=0.6)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.386031955,
+          "top_source": "shipping-and-delivery.md"
+        },
+        "dense (\u03b1=1.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.448854446,
+          "top_source": "shipping-and-delivery.md"
+        },
+        "sparse (\u03b1=0.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.302437365,
+          "top_source": "shipping-and-delivery.md"
+        }
+      },
+      {
+        "id": 18,
+        "category": "implicit-negative",
+        "question": "Do you ship to Australia?",
+        "hybrid (\u03b1=0.6)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.331116974,
+          "top_source": "shipping-and-delivery.md"
+        },
+        "dense (\u03b1=1.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.390443802,
+          "top_source": "shipping-and-delivery.md"
+        },
+        "sparse (\u03b1=0.0)": {
+          "hit": true,
+          "hit1": true,
+          "top_score": 0.242129132,
+          "top_source": "shipping-and-delivery.md"
+        }
+      }
+    ]
+  },
+  "end_to_end": {
+    "rows": [
+      {
+        "id": 1,
+        "category": "direct",
+        "question": "How long do refunds take to process?",
+        "should_escalate": false,
+        "escalated": false,
+        "top_score": 0.426,
+        "latency_s": 3.68,
+        "answer": "Refunds are issued to the original payment method within 5\u20137 business days after our warehouse receives and inspects the return [returns-and-refunds.md]. If a refund has not arrived after 10 business days, you may want to ask your bank about pending ACH reversals [returns-and-refunds.md].",
+        "sources": [
+          "account-management.md",
+          "returns-and-refunds.md",
+          "support-tickets-samples.md"
+        ],
+        "escalation_correct": true,
+        "has_citation": true,
+        "faithfulness": {
+          "score": 5,
+          "issue": "none"
+        }
+      },
+      {
+        "id": 2,
+        "category": "direct",
+        "question": "What payment methods do you accept?",
+        "should_escalate": false,
+        "escalated": false,
+        "top_score": 0.627,
+        "latency_s": 1.54,
+        "answer": "We accept Visa, Mastercard, American Express, Discover, PayPal, Apple Pay, Google Pay, and Shop Pay [payments-and-billing.md].",
+        "sources": [
+          "faq-general.md",
+          "payments-and-billing.md",
+          "returns-and-refunds.md",
+          "support-tickets-samples.md"
+        ],
+        "escalation_correct": true,
+        "has_citation": true,
+        "faithfulness": {
+          "score": 5,
+          "issue": "none"
+        }
+      },
+      {
+        "id": 3,
+        "category": "direct",
+        "question": "How do I enable two-factor authentication?",
+        "should_escalate": false,
+        "escalated": false,
+        "top_score": 0.385,
+        "latency_s": 2.4,
+        "answer": "To enable two-factor authentication, go to Account \u2192 Settings \u2192 Security and set up 2FA via an authenticator app (TOTP) [account-management.md].",
+        "sources": [
+          "account-management.md",
+          "troubleshooting-guide.md"
+        ],
+        "escalation_correct": true,
+        "has_citation": true,
+        "faithfulness": {
+          "score": 5,
+          "issue": "none"
+        }
+      },
+      {
+        "id": 4,
+        "category": "direct",
+        "question": "Can I cancel my order after it has shipped?",
+        "should_escalate": false,
+        "escalated": false,
+        "top_score": 0.65,
+        "latency_s": 2.07,
+        "answer": "According to our policy [orders-and-cancellation.md], once the status is \"Preparing shipment\" or later, cancellation is no longer possible; instead, you can refuse delivery or return the item under the 30-day return policy (POL-RET-02).",
+        "sources": [
+          "orders-and-cancellation.md",
+          "returns-and-refunds.md",
+          "shipping-and-delivery.md"
+        ],
+        "escalation_correct": true,
+        "has_citation": true,
+        "faithfulness": {
+          "score": 5,
+          "issue": "none"
+        }
+      },
+      {
+        "id": 5,
+        "category": "direct",
+        "question": "How long is the warranty and what does it cover?",
+        "should_escalate": false,
+        "escalated": false,
+        "top_score": 0.483,
+        "latency_s": 2.87,
+        "answer": "The warranty for LumenLeaf devices is 2 years from the delivery date, which can be extended to 2.5 years (30 months) if you register the device in the app within 60 days of purchase [warranty-policy.md]. The warranty covers manufacturing defects such as dead pixels/LED segments, failure to power on, Wi-Fi radio failure, and overload protection failures within the rated load [warranty-policy.md].",
+        "sources": [
+          "account-management.md",
+          "product-manual-hub-plug.md",
+          "returns-and-refunds.md",
+          "warranty-policy.md"
+        ],
+        "escalation_correct": true,
+        "has_citation": true,
+        "faithfulness": {
+          "score": 4,
+          "issue": "minor paraphrase liberties"
+        }
+      },
+      {
+        "id": 6,
+        "category": "exact-code",
+        "question": "What does error LL-E45 mean?",
+        "should_escalate": false,
+        "escalated": false,
+        "top_score": 0.367,
+        "latency_s": 2.38,
+        "answer": "Error LL-E45 means the connected load exceeded 1800W, causing the LL-P50 smart plug to cut power [troubleshooting-guide.md]. To resolve, unplug the appliance, press the side button once to clear, and connect a smaller load [troubleshooting-guide.md].",
+        "sources": [
+          "product-manual-hub-plug.md",
+          "support-tickets-samples.md",
+          "troubleshooting-guide.md"
+        ],
+        "escalation_correct": true,
+        "has_citation": true,
+        "faithfulness": {
+          "score": 5,
+          "issue": "none"
+        }
+      },
+      {
+        "id": 7,
+        "category": "exact-code",
+        "question": "I'm getting error PAY-204 at checkout",
+        "should_escalate": false,
+        "escalated": false,
+        "top_score": 0.43,
+        "latency_s": 2.06,
+        "answer": "For error PAY-204 \"AVS mismatch\", the billing address does not match bank records [payments-and-billing.md]. Please verify that your billing address matches the one on file with your bank.",
+        "sources": [
+          "account-management.md",
+          "payments-and-billing.md",
+          "troubleshooting-guide.md"
+        ],
+        "escalation_correct": true,
+        "has_citation": true,
+        "faithfulness": {
+          "score": 5,
+          "issue": "none"
+        }
+      },
+      {
+        "id": 8,
+        "category": "exact-code",
+        "question": "My hub LED is blinking red, is that error LL-E30?",
+        "should_escalate": false,
+        "escalated": false,
+        "top_score": 0.625,
+        "latency_s": 2.63,
+        "answer": "Yes, a blinking red LED on the hub indicates error LL-E30 \"No internet\" [troubleshooting-guide.md]. To resolve this, check the Ethernet cable and your ISP connection, ensuring outbound ports 443 and 8883 are not blocked [troubleshooting-guide.md].",
+        "sources": [
+          "product-manual-hub-plug.md",
+          "support-tickets-samples.md",
+          "troubleshooting-guide.md"
+        ],
+        "escalation_correct": true,
+        "has_citation": true,
+        "faithfulness": {
+          "score": 5,
+          "issue": "none"
+        }
+      },
+      {
+        "id": 9,
+        "category": "exact-code",
+        "question": "Where can I find the terms of POL-WHL-09 for bulk orders?",
+        "should_escalate": false,
+        "escalated": false,
+        "top_score": 0.455,
+        "latency_s": 2.37,
+        "answer": "For bulk orders, the terms, including a 15% restocking fee on returns, can be found by contacting our wholesale desk at wholesale@lumenleaf.example, as they operate under separate terms (POL-WHL-09) [orders-and-cancellation.md].",
+        "sources": [
+          "orders-and-cancellation.md",
+          "payments-and-billing.md",
+          "returns-and-refunds.md",
+          "shipping-and-delivery.md"
+        ],
+        "escalation_correct": true,
+        "has_citation": true,
+        "faithfulness": {
+          "score": 5,
+          "issue": "none"
+        }
+      },
+      {
+        "id": 10,
+        "category": "paraphrase",
+        "question": "My light keeps blinking on and off, what is wrong with it?",
+        "should_escalate": false,
+        "escalated": false,
+        "top_score": 0.293,
+        "latency_s": 4.6,
+        "answer": "The issue you're experiencing with your light blinking on and off could be related to a few possible causes. If your bulb is flickering, it might be due to dimmer interference, as LumenLeaf bulbs are incompatible with wall dimmer switches [troubleshooting-guide.md]. Try replacing the dimmer with a standard on/off switch to resolve the issue. If the flicker persists with a standard switch, it could indicate a defective bulb, which is covered by warranty [troubleshooting-guide.md]. If you're experiencing a different issue, such as the bulb turning on and off repeatedly, it might be related to connectivity or power issues. Could you provide more details about your setup and the exact behavior you're seeing?",
+        "sources": [
+          "product-manual-bulbs.md",
+          "product-manual-hub-plug.md",
+          "troubleshooting-guide.md"
+        ],
+        "escalation_correct": true,
+        "has_citation": true,
+        "faithfulness": {
+          "score": 4,
+          "issue": "minor paraphrase liberties"
+        }
+      },
+      {
+        "id": 11,
+        "category": "paraphrase",
+        "question": "The app cannot find my device even though it is plugged in and powered",
+        "should_escalate": false,
+        "escalated": false,
+        "top_score": 0.383,
+        "latency_s": 3.19,
+        "answer": "To resolve the issue with the app not finding your device, try the following steps: \n1. Enable Bluetooth and Local Network permission for the LumenLeaf app (iOS Settings \u2192 Privacy) [troubleshooting-guide.md]. \n2. For Android, ensure Location permission is enabled for Wi-Fi scanning [troubleshooting-guide.md]. \n\nIf issues persist, consider checking your network settings or consulting the troubleshooting guide for further assistance [troubleshooting-guide.md].",
+        "sources": [
+          "product-manual-hub-plug.md",
+          "support-tickets-samples.md",
+          "troubleshooting-guide.md"
+        ],
+        "escalation_correct": true,
+        "has_citation": true,
+        "faithfulness": {
+          "score": 4,
+          "issue": "minor paraphrase liberties"
+        }
+      },
+      {
+        "id": 12,
+        "category": "paraphrase",
+        "question": "Tracking says my package arrived but I never got it",
+        "should_escalate": false,
+        "escalated": false,
+        "top_score": 0.229,
+        "latency_s": 2.64,
+        "answer": "To resolve this, first check with household members and neighbors, and look for a carrier photo in the tracking link [orders-and-cancellation.md]. If the package is still missing 48 hours after the delivery scan, report it via Account \u2192 Orders \u2192 Report Issue [orders-and-cancellation.md]. We replace or refund per the lost-package terms in POL-SHIP-01 [orders-and-cancellation.md].",
+        "sources": [
+          "orders-and-cancellation.md",
+          "shipping-and-delivery.md",
+          "support-tickets-samples.md"
+        ],
+        "escalation_correct": true,
+        "has_citation": true,
+        "faithfulness": {
+          "score": 5,
+          "issue": "none"
+        }
+      },
+      {
+        "id": 13,
+        "category": "paraphrase",
+        "question": "Can I stop my kids from turning the smart plug on and off?",
+        "should_escalate": false,
+        "escalated": false,
+        "top_score": 0.344,
+        "latency_s": 8.17,
+        "answer": "You can disable the physical button on the LL-P50 smart plug using the child lock feature [product-manual-hub-plug.md]. This can be accessed through the app, allowing you to control the plug remotely while preventing accidental or unauthorized physical changes.",
+        "sources": [
+          "product-manual-hub-plug.md",
+          "support-tickets-samples.md",
+          "troubleshooting-guide.md"
+        ],
+        "escalation_correct": true,
+        "has_citation": true,
+        "faithfulness": {
+          "score": 5,
+          "issue": "none"
+        }
+      },
+      {
+        "id": 14,
+        "category": "multi-doc",
+        "question": "I want to return a defective bulb. Do I pay for the return label, and can I get a replacement instead of a refund?",
+        "should_escalate": false,
+        "escalated": false,
+        "top_score": 0.372,
+        "latency_s": 4.27,
+        "answer": "For defective items, returns are free [returns-and-refunds.md]. To start a return, go to Account \u2192 Orders \u2192 Return Item, select a reason, and print the prepaid return label. \n\nIf you prefer a replacement, you can make a warranty claim [warranty-policy.md]. Here's how: \n1. In the app: Device \u2192 Settings \u2192 Report Problem, or email support@lumenleaf.example with the serial number and proof of purchase.\n2. Support runs remote diagnostics within 1 business day.\n3. Approved claims receive a prepaid return label and a replacement ships within 2 business days of our receiving the defective unit.",
+        "sources": [
+          "returns-and-refunds.md",
+          "support-tickets-samples.md",
+          "warranty-policy.md"
+        ],
+        "escalation_correct": true,
+        "has_citation": true,
+        "faithfulness": {
+          "score": 5,
+          "issue": "none"
+        }
+      },
+      {
+        "id": 15,
+        "category": "multi-doc",
+        "question": "If my internet goes down, will my bulbs still work and will schedules still run?",
+        "should_escalate": false,
+        "escalated": false,
+        "top_score": 0.374,
+        "latency_s": 2.29,
+        "answer": "Yes, basic on/off functionality via Bluetooth will still work for the LL-B200 within range, and schedules stored on the LL-H300 hub will keep running offline [faq-general.md]. However, cloud features like voice assistants and remote access will not be available without internet [faq-general.md].",
+        "sources": [
+          "faq-general.md",
+          "product-manual-bulbs.md",
+          "support-tickets-samples.md",
+          "troubleshooting-guide.md"
+        ],
+        "escalation_correct": true,
+        "has_citation": true,
+        "faithfulness": {
+          "score": 5,
+          "issue": "none"
+        }
+      },
+      {
+        "id": 16,
+        "category": "ambiguous",
+        "question": "My device isn't working",
+        "should_escalate": false,
+        "escalated": false,
+        "top_score": 0.377,
+        "latency_s": 3.8,
+        "answer": "To troubleshoot your issue, let's start with some basic steps. If your bulb or plug won't connect during setup, try confirming your phone is on the 2.4 GHz band, disable VPN on your phone, move the device within 3 meters of the router, and factory reset the device [troubleshooting-guide.md]. If your device shows \"Offline\" in the app, try power-cycling the device and your router [troubleshooting-guide.md]. If none of these steps resolve the issue, please provide more details about the error you're experiencing, such as any error codes or messages.",
+        "sources": [
+          "faq-general.md",
+          "troubleshooting-guide.md",
+          "warranty-policy.md"
+        ],
+        "escalation_correct": true,
+        "has_citation": true,
+        "faithfulness": {
+          "score": 5,
+          "issue": "none"
+        }
+      },
+      {
+        "id": 17,
+        "category": "ambiguous",
+        "question": "How much does shipping cost?",
+        "should_escalate": false,
+        "escalated": false,
+        "top_score": 0.386,
+        "latency_s": 1.63,
+        "answer": "Standard shipping is free on orders over $49 and costs $5.99 otherwise, while expedited shipping costs $14.99 [shipping-and-delivery.md].",
+        "sources": [
+          "orders-and-cancellation.md",
+          "returns-and-refunds.md",
+          "shipping-and-delivery.md"
+        ],
+        "escalation_correct": true,
+        "has_citation": true,
+        "faithfulness": {
+          "score": 5,
+          "issue": "none"
+        }
+      },
+      {
+        "id": 18,
+        "category": "implicit-negative",
+        "question": "Do you ship to Australia?",
+        "should_escalate": false,
+        "escalated": false,
+        "top_score": 0.331,
+        "latency_s": 1.72,
+        "answer": "We ship to the United States, Canada, and the United Kingdom [shipping-and-delivery.md]. There is no mention of shipping to Australia, so the answer is no.",
+        "sources": [
+          "orders-and-cancellation.md",
+          "payments-and-billing.md",
+          "shipping-and-delivery.md"
+        ],
+        "escalation_correct": true,
+        "has_citation": true,
+        "faithfulness": {
+          "score": 5,
+          "issue": "none"
+        }
+      },
+      {
+        "id": 19,
+        "category": "unanswerable",
+        "question": "What is your CEO's salary?",
+        "should_escalate": true,
+        "escalated": true,
+        "top_score": 0.114,
+        "latency_s": 0.2,
+        "answer": "I'm not confident I can answer that accurately from our knowledge base, so I'm connecting you with a human support agent. You can also reach us 24/7 via live chat or support@lumenleaf.example.",
+        "sources": [],
+        "escalation_correct": true,
+        "has_citation": null
+      },
+      {
+        "id": 20,
+        "category": "unanswerable",
+        "question": "Do you sell outdoor security cameras?",
+        "should_escalate": true,
+        "escalated": true,
+        "top_score": 0.209,
+        "latency_s": 0.33,
+        "answer": "I'm not confident I can answer that accurately from our knowledge base, so I'm connecting you with a human support agent. You can also reach us 24/7 via live chat or support@lumenleaf.example.",
+        "sources": [],
+        "escalation_correct": true,
+        "has_citation": null
+      }
+    ]
+  }
+}
