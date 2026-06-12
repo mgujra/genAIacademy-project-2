@@ -1,4 +1,4 @@
-# Quickstart — run this on your Mac
+# Quickstart — (Mac)
 
 Open Terminal, then:
 
