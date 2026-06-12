@@ -89,6 +89,9 @@ The two escalation paths are deliberate: the gate catches *retrieval* failures (
 |---|---|---|---|---|---|---|
 | #1 (2026-06-11) | 0.45 | 29% | 100% | 100% (n=5) | 100% | 1.5s* |
 | #2 (2026-06-11) | 0.22 | 100% | 67%† | 100% (n=18, avg 4.82) | 100% | 3.4s |
+| #3 final (2026-06-11) | 0.22 | 100% | 100% | 100% (avg 4.83) | 100% | 2.7s |
+
+**Run #3 retrieval finding (hit@1):** hybrid **100%** · sparse 100% · dense 94% — pure dense mis-ranked one multi-doc query (50% hit@1 in that category). Sparse outperformed its textbook reputation because the authored corpus is BM25-friendly (distinctive vocabulary throughout); hybrid remained the only mode never to mis-rank.
 
 \* Run #1 latency is artificially low: 12 wrongly-gated queries skipped generation.
 † Run #2's "miss" was Q18 answering instead of escalating — correct behavior, wrong test label; fixed by the re-label above. Against the corrected labels, escalation recall is 100% (2/2).

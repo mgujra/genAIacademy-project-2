@@ -9,10 +9,11 @@ A customer-support Q&A bot over a product knowledge base, built for The Gen Acad
 | Metric | Value |
 |---|---|
 | First-contact resolution | 100% |
-| Faithfulness (LLM judge, % scoring ≥4/5) | 100% (avg 4.82) |
+| Faithfulness (LLM judge, % scoring ≥4/5) | 100% (avg 4.83) |
 | Citation rate | 100% |
-| Escalation recall on unanswerable questions | 100% (after test-set re-label) |
-| Avg end-to-end latency | 3.4s |
+| Escalation recall on unanswerable questions | 100% |
+| Retrieval hit@1 — hybrid / dense / sparse | 100% / 94% / 100% (dense alone mis-ranked a multi-doc query) |
+| Avg end-to-end latency | 2.7s |
 
 The first eval run scored only **29% first-contact resolution** — the confidence gate was miscalibrated. See [EVALUATION_REPORT.md](EVALUATION_REPORT.md) and the calibration story in [SYSTEM_DESIGN.md](SYSTEM_DESIGN.md) (DD-04).
 

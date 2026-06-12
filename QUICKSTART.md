@@ -47,5 +47,8 @@ Notes:
 - ✅ Gate recalibrated to 0.22 from measured score distributions (see DD-04)
 - ✅ Eval run #2: 100% resolution, 4.82/5 faithfulness, 3.4s avg latency
 - ✅ Harness upgraded: hit@1 metric added, Q18 re-labeled implicit-negative
-- ⬜ Final eval run with hit@1 (rerun `python -m src.evaluate`)
-- ⬜ Chatbot UI · README · project documentation · demo recording
+- ✅ Final eval run #3: 100% resolution · 100% escalation recall · 4.83/5 faithfulness · hybrid 100% hit@1 · 2.7s
+- ✅ Chatbot UI (FastAPI + chat page) tested end to end
+- ✅ README · PROJECT_DOCUMENTATION · SYSTEM_DESIGN · DEMO_TALK_TRACK finalized
+- ⬜ Push to GitHub (https://github.com/mgujra/genAIacademy-project-2 — currently empty)
+- ⬜ Copy PROJECT_DOCUMENTATION.md into a Google Doc · record ≤5-min demo · submit form

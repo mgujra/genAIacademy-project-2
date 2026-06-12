@@ -170,7 +170,8 @@ def write_report(summary: dict, retrieval: dict, e2e: dict):
     lines = [
         "# Evaluation Report — LumenLeaf Support RAG",
         "",
-        f"20 queries across 6 categories · hybrid α={config.HYBRID_ALPHA} · top-k={config.TOP_K} · gate={config.CONFIDENCE_THRESHOLD}",
+        f"{len(e2e['rows'])} queries across {len({r['category'] for r in e2e['rows']})} categories"
+        f" · hybrid α={config.HYBRID_ALPHA} · top-k={config.TOP_K} · gate={config.CONFIDENCE_THRESHOLD}",
         "",
         "## Headline metrics",
         "",

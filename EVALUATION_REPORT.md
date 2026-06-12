@@ -1,6 +1,6 @@
 # Evaluation Report — LumenLeaf Support RAG
 
-20 queries across 6 categories · hybrid α=0.6 · top-k=5 · gate=0.22
+20 queries across 7 categories · hybrid α=0.6 · top-k=5 · gate=0.22
 
 ## Headline metrics
 
