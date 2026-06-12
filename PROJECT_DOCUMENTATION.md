@@ -2,8 +2,6 @@
 ### LumenLeaf Customer Support KB with Hybrid Search
 *Mohan Gujral · The Gen Academy, Mastering Agentic AI Bootcamp · Week 2*
 
-> Copy this document into Google Docs for submission.
-
 ---
 
 ## 1. Project overview
